@@ -11,7 +11,7 @@ async function bootstrap() {
       urls: [
         'amqps://tngmhaki:f4Xs8OnPrLeN0lf0fl6RC-j2qWPew_BR@kangaroo.rmq.cloudamqp.com/tngmhaki',
       ],
-      queue: 'notification_queue',
+      queue: 'booking',
       queueOptions: {
         durable: false,
       },
