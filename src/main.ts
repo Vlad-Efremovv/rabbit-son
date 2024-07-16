@@ -18,7 +18,7 @@ async function bootstrap() {
     },
   });
 
-  app.startAllMicroservices;
+  await app.startAllMicroservices();
 
   await app.listen(4000, () => console.log('start to localhost:4000'));
 }
